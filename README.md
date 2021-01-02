@@ -14,7 +14,7 @@
 4. Затем введите в браузере `http://127.0.0.1:8080/`. Cтандартна `tabula` открывается в портe `8080`. Если вы хотите, чтобы `tabula` открывалась автоматически в browser, введите это как опцию в команде. Для этого нужно добавить следующую строку `-Dtabula.openBrowser=true`. Это будет выглядеть вот так `-Dfile.encoding=utf-8 -Dtabula.openBrowser=true -Xms256M -Xmx1024M -jar tabula.jar`.
 
 И если вы также хотите изменить порт, по которому запускается tabula в браузерe, вы можете добавить эту дополнительную опцию `-Dwarbler.port=2222`. Bыглядеть будет это вот так `java -Dfile.encoding=utf-8 -Xms256M -Xmx1024M -Dwarbler.port=2222 -jar tabula.jar`.
-========
+
 
 И это уже и всё. Теперь вы можете работать с tabula в браузере под Linux.
 Если вы хотите знать, как именно использовать, тогда я могу порекомендовать это [видео](https://www.youtube.com/watch?v=7kvHHgpgQzo&list=PLSMRb_QCYQ2wKKK8xUobL8DMoAGH0cxkW&index=6) от "Важные истории" для начала.
